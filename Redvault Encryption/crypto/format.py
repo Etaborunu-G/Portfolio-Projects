@@ -1,0 +1,9 @@
+# crypto/format.py
+MAGIC = b"RVLT"
+VERSION = 1
+
+MODE_PASSWORD = 1
+
+SALT_SIZE = 16
+IV_SIZE = 16
+BACKUP_KEY_SIZE = 32
